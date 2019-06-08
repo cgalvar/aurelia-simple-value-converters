@@ -1,5 +1,5 @@
 {
-  "name": "aurelia-data-row-value-converter",
+  "name": "@cgalvar/au-some-value-converters",
   "description": "An Aurelia plugin project.",
   "version": "0.1.0",
   "repository": {
