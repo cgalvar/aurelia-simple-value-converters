@@ -1,13 +1,12 @@
 import { DateValueConverter } from './date';
 import { autoinject } from 'aurelia-framework';
 import { BooleanToLetterValueConverter } from "./booleanToLetter";
-import { DireccionValueConverter } from "./direccion";
+
 
 @autoinject()
 export class DataRowValueConverter {
   constructor(private date: DateValueConverter,
     private booleanToLetter: BooleanToLetterValueConverter,
-    private direccion: DireccionValueConverter
   ) {
   }
 

@@ -84,6 +84,7 @@
           "aurelia-bootstrapper",
           "aurelia-loader-default",
           "aurelia-pal-browser",
+          "moment",
           {
             "name": "aurelia-testing",
             "env": "dev"

@@ -1,10 +1,8 @@
-import { FileModel } from "../../services/models";
-
 export class CheckTypeValueConverter {
-  toView(file:FileModel, desiredType) {
+  toView(fileType, desiredType) {
     
-    if(file){
-      let type = file.type.split('/')[0];
+    if(fileType){
+      let type = fileType.split('/')[0];
       return type == desiredType;
     }
     
