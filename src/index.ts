@@ -6,7 +6,6 @@ export function configure(config: FrameworkConfiguration) {
     PLATFORM.moduleName('./value-converters/booleanToLetter'),
     PLATFORM.moduleName('./value-converters/datarow'),
     PLATFORM.moduleName('./value-converters/date'),
-    PLATFORM.moduleName('./value-converters/direccion'),
     PLATFORM.moduleName('./value-converters/filelisttoarrayvalueconverter')
   ]);
 }
